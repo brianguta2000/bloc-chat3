@@ -49,7 +49,7 @@ class RoomList extends Component {
   render() {
     return (
       <section>
-      <h1>Bloc Chat Rooms</h1>
+      <h1>Bloc Chat Room</h1>
       <ul>
       {this.state.rooms.map( room =>
         <li key={room.key}>{room.name}</li>
@@ -64,4 +64,4 @@ class RoomList extends Component {
   }
 }
 
-export default RoomList;
+export default RoomList;git statu
